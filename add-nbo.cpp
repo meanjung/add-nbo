@@ -3,6 +3,10 @@
 #include<netinet/in.h>
 
 int main(){
+	char name[] = "홍민정";
+	char mobile[] = "6347";
+	printf("[bob11]add-nbo[%s%s]\n", name, mobile);
+	/*****************/
 	FILE *fp1 = fopen("thousand.bin","r");
 	char buffer1[5]={0, };
 	
